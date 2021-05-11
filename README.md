@@ -1,2 +1,3 @@
 # portfolio
- personla portfolio page
+ personal
+portfolio page
