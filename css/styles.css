@@ -5,12 +5,10 @@ font-family: 'Source Code Pro', monospace;
 body {
   background: black;
   margin: 0;
+  color: white;
+  text-align: center;
 }
 
-.main .container {
-  text-align: center;
-  color: white;
-}
 .main .container h1 {
 
   font-family: 'Roboto', serif;
@@ -27,16 +25,20 @@ body {
 }
 
 .contact .container .icon-list {
+
   list-style-type: none;
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
 }
 .contact .container .icon-list img {
+
   width: 5em;
   height: 5em;
   padding: 2em;
 }
 .contact .container .icon-list img:hover {
+
   transform: translateY(5px);
 }
