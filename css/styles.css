@@ -1,0 +1,40 @@
+/*
+font-family: 'Roboto', serif;
+font-family: 'Source Code Pro', monospace;
+*/
+body {
+  background: black;
+  margin: 0;
+}
+
+.main .container {
+  text-align: center;
+  color: white;
+}
+.main .container h1 {
+  font-size: 3em;
+}
+.main .container h2 {
+  font-size: 1.5em;
+}
+.main .container img {
+  width: 12em;
+  height: 15em;
+}
+
+.contact .container .icon-list {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.contact .container .icon-list img {
+  width: 5em;
+  height: 5em;
+  padding: 2em;
+}
+.contact .container .icon-list img:hover {
+  transform: translateY(5px);
+}
